@@ -1,4 +1,4 @@
-export interface TenagaPendidik {
+interface TenagaPendidik {
   no: number;
   nama: string;
   jk: string;
