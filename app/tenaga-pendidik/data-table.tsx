@@ -139,7 +139,7 @@ export function TenagaPendidikTable() {
                     <Dialog>
                       <DialogTrigger asChild>
                         <Button variant="outline" size="sm">
-                          View Details
+                          Lihat Detail
                         </Button>
                       </DialogTrigger>
                       <DialogContent className="sm:max-w-[600px] p-8 max-h-[80vh] overflow-y-auto">
