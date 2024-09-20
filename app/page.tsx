@@ -283,7 +283,7 @@ interface FeatureCardProps {
 
 function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
-    <div className="bg-white p-8 rounded-3xl text-center transition duration-300 hover:bg-zinc-50">
+    <div className="bg-white p-8 rounded-3xl text-center transition duration-300 hover:shadow-xl hover:shadow-slate-100 shadow-2xl shadow-slate-200">
       <div className="flex justify-center mb-6">{icon}</div>
       <h3 className="text-2xl font-semibold mb-4 text-gray-800">{title}</h3>
       <p className="text-gray-600">{description}</p>
@@ -300,7 +300,7 @@ interface NewsCardProps {
 
 function NewsCard({ image, title, date, excerpt }: NewsCardProps) {
   return (
-    <div className="bg-white shadow-sm rounded-3xl overflow-hidden transition duration-300 hover:opacity-90 flex flex-col h-full">
+    <div className="bg-white shadow-2xl shadow-slate-200 rounded-3xl overflow-hidden transition duration-300 hover:opacity-90 flex flex-col h-full">
       <div className="relative h-48">
         <Image src={image} alt={title} layout="fill" objectFit="cover" />
       </div>
@@ -329,7 +329,7 @@ interface StatCardProps {
 
 function StatCard({ label, value, icon }: StatCardProps) {
   return (
-    <div className="bg-white p-6 rounded-3xl text-center shadow-sm transition duration-300 hover:opacity-80">
+    <div className="bg-white p-6 rounded-3xl text-center transition duration-300 hover:opacity-80 shadow-2xl shadow-slate-200">
       <div className="flex justify-center mb-4">{icon}</div>
       <h4 className="text-2xl font-bold text-[#25478d] mb-2">{value}</h4>
       <p className="text-gray-600">{label}</p>

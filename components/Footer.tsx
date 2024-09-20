@@ -116,19 +116,19 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Ikuti Kami</h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/smkimelda.medan"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Facebook size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/smksimelda/"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Instagram size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@smkteknikimelda5904"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Youtube size={24} />
